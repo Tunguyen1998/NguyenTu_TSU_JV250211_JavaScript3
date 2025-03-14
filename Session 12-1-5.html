@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = prompt ('Nhap vao diem bai kiem tra 15p');
+        let b = prompt ('Nhap vao diem bai kiem tra 45p');
+        let c = prompt ('Nhap vao diem bai kiem tra giua ki');
+        let d = prompt ('Nhap vao diem bai kiem tra cuoi ki');
+        let average = parseFloat(( +a + +b + +c + +d)/4);
+        alert (` Diem trung binh cua ban la ${average}`);
+        if (average >= 9){
+            alert ('Ban dat loai hoc luc "Xuat sac" ');
+        }else if (average >= 8){
+            alert ('Ban dat loi hoc luc "Gioi"');
+        }else if (average >= 7){
+            alert ('Ban dat loi hoc luc "Kha"');
+        }else if (average >=5){
+            alert ('Ban dat loai hoc luc "Trung binh"');
+        }else{alert ('Ban dat loai hoc luc "Yeu"')}
+        
+
+
+
+    </script>
+</body>
+</html>
